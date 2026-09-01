@@ -79,6 +79,7 @@ const translations = {
     "contact.lead":
       "¿Conversamos sobre tecnología, IA o transformación digital? Escríbeme y coordinamos una llamada.",
     "contact.ctaEmail": "Enviar correo",
+    "contact.ctaWhatsapp": "WhatsApp",
     "contact.ctaLinkedin": "LinkedIn",
     "contact.labelEmail": "Email",
     "contact.labelPhone": "Teléfono",
@@ -160,6 +161,7 @@ const translations = {
     "contact.lead":
       "Let's talk about technology, AI, or digital transformation. Reach out and let's schedule a call.",
     "contact.ctaEmail": "Send email",
+    "contact.ctaWhatsapp": "WhatsApp",
     "contact.ctaLinkedin": "LinkedIn",
     "contact.labelEmail": "Email",
     "contact.labelPhone": "Phone",
