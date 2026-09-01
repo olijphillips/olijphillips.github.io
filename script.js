@@ -16,12 +16,14 @@ const translations = {
     "nav.experience": "Experiencia",
     "nav.projects": "Proyectos",
     "nav.skills": "Habilidades",
+    "nav.services": "Servicios",
     "nav.contact": "Contacto",
     "hero.eyebrow": "Director de Tecnología · Heredia, Costa Rica",
     "hero.subtitle":
       "Director de Tecnología y líder ejecutivo con más de 25 años liderando organizaciones tecnológicas, desarrollo de software y transformación digital en Estados Unidos y Latinoamérica.",
     "hero.ctaPrimary": "Hablemos",
     "hero.ctaSecondary": "Ver experiencia",
+    "hero.portraitAlt": "Retrato en blanco y negro de Olivier Jara Phillips",
     "about.title": "Sobre mí",
     "about.p1":
       "Combino liderazgo ejecutivo con conocimiento práctico de tecnologías modernas: desarrollo Frontend y Backend, Cloud, DevOps, CI/CD, Docker, APIs y bases de datos, con un fuerte enfoque en IA, LLMs, RAG, AI Agents y automatización inteligente.",
@@ -75,6 +77,75 @@ const translations = {
     "skills.group2": "Backend & APIs",
     "skills.group3": "Dev & CI/CD",
     "skills.group4": "IA & Automatización",
+    "services.title": "¿Cómo puedo ayudarte?",
+    "services.lead":
+      "No vendo servicios: resuelvo tus retos. Dime qué quieres lograr y armamos juntos el camino.",
+    "services.wantLabel": "Quiero…",
+    "services.howLabel": "Olivier te ayuda mediante",
+    "services.outcomeLabel": "El outcome",
+    "services.sc1want":
+      "Mejorar mi administración del tiempo y dejar de apagar incendios.",
+    "services.sc1how":
+      "una evaluación de tus hábitos y agenda, priorización, time-blocking y rituales semanales de foco.",
+    "services.sc1outcome":
+      "Una agenda que refleja tus prioridades reales, menos días reactivos y espacio para lo estratégico.",
+    "services.sc2want": "Procesos más ágiles y costos bajo control.",
+    "services.sc2how":
+      "mapeo de value stream, mejoras Lean Six Sigma y automatización con IA de los pasos repetitivos.",
+    "services.sc2outcome":
+      "Ciclos más cortos, menos errores y un ahorro medible en horas y dinero.",
+    "services.sc3want": "Crecer como líder sin quemarme en el intento.",
+    "services.sc3how":
+      "asesoría 1:1 en liderazgo, manejo del estrés y la ansiedad, y un plan de carrera con metas concretas.",
+    "services.sc3outcome":
+      "Decisiones más claras, un equipo comprometido y una carrera con dirección.",
+    "services.catalogTitle": "¿Qué puedo hacer por usted?",
+    "services.g1": "Estrategia & Liderazgo",
+    "services.i1t": "Asesoría en estrategia y liderazgo",
+    "services.i1b":
+      "liderazgo empresarial y organizacional con foco en resultados.",
+    "services.i2t": "Planificación estratégica",
+    "services.i2b": "del objetivo de negocio a un plan ejecutable.",
+    "services.i3t": "Gestión política en organizaciones",
+    "services.i3b":
+      "influencia constructiva y alianzas que destraban proyectos.",
+    "services.i4t": "Navegación por gerencia matricial",
+    "services.i4b":
+      "resultados sin autoridad directa, aprendida en la práctica.",
+    "services.g2": "Proyectos & Entrega",
+    "services.i5t": "Gestión de proyectos",
+    "services.i5b":
+      "con Agile, Waterfall o el framework del PMI, según el reto.",
+    "services.i6t": "Administración de riesgos",
+    "services.i6b":
+      "riesgos identificados y gestionados antes de que sean crisis.",
+    "services.i7t": "Prototipado de productos",
+    "services.i7b": "de la idea a un prototipo que valida antes de invertir.",
+    "services.g3": "Procesos & Operaciones",
+    "services.i8t": "Mejora de procesos",
+    "services.i8b": "diagnóstico y rediseño para operar con menos fricción.",
+    "services.i9t": "Optimización / Value Stream Mapping",
+    "services.i9b": "el flujo completo visible, los cuellos de botella fuera.",
+    "services.i10t": "Control y monitoreo",
+    "services.i10b": "indicadores que informan decisiones, no solo reportes.",
+    "services.i11t": "Planificación financiera",
+    "services.i11b": "presupuestos y P&L alineados a la estrategia.",
+    "services.g4": "Personas & Carrera",
+    "services.i12t": "Manejo del estrés y la ansiedad",
+    "services.i12b":
+      "herramientas prácticas para liderar con calma bajo presión.",
+    "services.i13t": "Productividad personal",
+    "services.i13b": "sistemas de trabajo que rinden sin sacrificar tu vida.",
+    "services.i14t": "Administración del tiempo",
+    "services.i14b": "prioridades claras y foco en lo que de verdad importa.",
+    "services.i15t": "Planificación de carrera",
+    "services.i15b": "una ruta realista hacia el rol que quieres alcanzar.",
+    "services.g5": "Equipos & Talento",
+    "services.i16t": "RRHH en tecnología",
+    "services.i16b": "administración y desarrollo de talento técnico a escala.",
+    "services.i17t": "Trabajo en equipo",
+    "services.i17b": "equipos que colaboran, entregan y disfrutan el camino.",
+    "services.cta": "Agendemos una conversación",
     "contact.title": "Contacto",
     "contact.lead":
       "¿Conversamos sobre tecnología, IA o transformación digital? Escríbeme y coordinamos una llamada.",
@@ -98,12 +169,14 @@ const translations = {
     "nav.experience": "Experience",
     "nav.projects": "Projects",
     "nav.skills": "Skills",
+    "nav.services": "Services",
     "nav.contact": "Contact",
     "hero.eyebrow": "Technology Director · Heredia, Costa Rica",
     "hero.subtitle":
       "Technology Director and executive leader with 25+ years leading technology organizations, software development, and digital transformation across the US and Latin America.",
     "hero.ctaPrimary": "Let's talk",
     "hero.ctaSecondary": "View experience",
+    "hero.portraitAlt": "Black and white portrait of Olivier Jara Phillips",
     "about.title": "About me",
     "about.p1":
       "I combine executive leadership with hands-on knowledge of modern technologies: Frontend and Backend development, Cloud, DevOps, CI/CD, Docker, APIs, and databases, with a strong focus on AI, LLMs, RAG, AI Agents, and intelligent automation.",
@@ -157,6 +230,73 @@ const translations = {
     "skills.group2": "Backend & APIs",
     "skills.group3": "Dev & CI/CD",
     "skills.group4": "AI & Automation",
+    "services.title": "How can I help you?",
+    "services.lead":
+      "I don't sell services — I solve your challenges. Tell me what you want to achieve and we'll build the path together.",
+    "services.wantLabel": "I want…",
+    "services.howLabel": "Olivier helps you through",
+    "services.outcomeLabel": "The outcome",
+    "services.sc1want": "Take control of my time and stop putting out fires.",
+    "services.sc1how":
+      "an assessment of your habits and schedule, prioritization, time-blocking, and weekly focus rituals.",
+    "services.sc1outcome":
+      "A schedule that reflects your real priorities, fewer reactive days, and room for strategic work.",
+    "services.sc2want": "Faster processes and costs under control.",
+    "services.sc2how":
+      "value stream mapping, Lean Six Sigma improvements, and AI automation of repetitive steps.",
+    "services.sc2outcome":
+      "Shorter cycles, fewer errors, and measurable savings in hours and money.",
+    "services.sc3want": "Grow as a leader without burning out.",
+    "services.sc3how":
+      "1:1 leadership coaching, stress and anxiety management, and a career plan with concrete goals.",
+    "services.sc3outcome":
+      "Clearer decisions, a committed team, and a career with direction.",
+    "services.catalogTitle": "What can I do for you?",
+    "services.g1": "Strategy & Leadership",
+    "services.i1t": "Strategy & leadership advisory",
+    "services.i1b":
+      "business and organizational leadership focused on results.",
+    "services.i2t": "Strategic planning",
+    "services.i2b": "from business goal to an executable plan.",
+    "services.i3t": "Organizational politics management",
+    "services.i3b":
+      "constructive influence and alliances that unblock projects.",
+    "services.i4t": "Navigating matrix management",
+    "services.i4b":
+      "delivering without direct authority — learned in practice.",
+    "services.g2": "Projects & Delivery",
+    "services.i5t": "Project management",
+    "services.i5b":
+      "with Agile, Waterfall, or the PMI framework — whatever the challenge calls for.",
+    "services.i6t": "Risk management",
+    "services.i6b": "risks identified and managed before they become crises.",
+    "services.i7t": "Product prototyping",
+    "services.i7b":
+      "from idea to a prototype that validates before you invest.",
+    "services.g3": "Processes & Operations",
+    "services.i8t": "Process improvement",
+    "services.i8b": "diagnosis and redesign to operate with less friction.",
+    "services.i9t": "Optimization / Value Stream Mapping",
+    "services.i9b": "the full flow made visible, bottlenecks removed.",
+    "services.i10t": "Control & monitoring",
+    "services.i10b": "metrics that inform decisions, not just reports.",
+    "services.i11t": "Financial planning",
+    "services.i11b": "budgets and P&L aligned with strategy.",
+    "services.g4": "People & Career",
+    "services.i12t": "Stress & anxiety management",
+    "services.i12b": "practical tools to lead calmly under pressure.",
+    "services.i13t": "Personal productivity",
+    "services.i13b": "work systems that deliver without sacrificing your life.",
+    "services.i14t": "Time management",
+    "services.i14b": "clear priorities and focus on what truly matters.",
+    "services.i15t": "Career planning",
+    "services.i15b": "a realistic path to the role you want to reach.",
+    "services.g5": "Teams & Talent",
+    "services.i16t": "Tech HR management",
+    "services.i16b": "managing and developing technical talent at scale.",
+    "services.i17t": "Teamwork",
+    "services.i17b": "teams that collaborate, deliver, and enjoy the journey.",
+    "services.cta": "Let's schedule a conversation",
     "contact.title": "Contact",
     "contact.lead":
       "Let's talk about technology, AI, or digital transformation. Reach out and let's schedule a call.",
@@ -201,7 +341,7 @@ const applyLanguage = (lang) => {
   langToggle.textContent = lang === "es" ? "EN" : "ES";
   langToggle.setAttribute(
     "aria-label",
-    lang === "es" ? "Cambiar idioma a inglés" : "Switch language to Spanish"
+    lang === "es" ? "Cambiar idioma a inglés" : "Switch language to Spanish",
   );
 };
 
@@ -253,7 +393,10 @@ const navLinks = document.querySelectorAll(".nav-link");
 
 const setActiveLink = (sectionId) => {
   navLinks.forEach((link) => {
-    link.classList.toggle("active", link.getAttribute("href") === `#${sectionId}`);
+    link.classList.toggle(
+      "active",
+      link.getAttribute("href") === `#${sectionId}`,
+    );
   });
 };
 
@@ -265,7 +408,7 @@ const sectionObserver = new IntersectionObserver(
       }
     });
   },
-  { rootMargin: "-40% 0px -55% 0px" }
+  { rootMargin: "-40% 0px -55% 0px" },
 );
 
 sections.forEach((section) => sectionObserver.observe(section));
@@ -285,7 +428,7 @@ const revealObserver = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.15 }
+  { threshold: 0.15 },
 );
 
 revealElements.forEach((element) => revealObserver.observe(element));
