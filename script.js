@@ -67,9 +67,9 @@ const translations = {
     "proj3.title": "Plataformas web full-stack",
     "proj3.desc":
       "Desarrollo de aplicaciones web completas con React, Next.js y Node.js sobre PostgreSQL y APIs REST desplegadas en la nube.",
-    "proj4.title": "Back-end cloud en Azure",
+    "proj4.title": "Ramp-up de organizaciones de Tecnología y Operaciones",
     "proj4.desc":
-      "Liderazgo del SDLC para servicios back-end en Azure: REST APIs, Function Apps, C# y SQL Server, con 25 proyectos entregados mediante Scrum y Azure DevOps.",
+      "Construcción y escalado de organizaciones nearshore de tecnología y operaciones desde cero: 550+ colaboradores entre Costa Rica y México dando servicio a unidades de negocio en EE.UU., con ownership de un P&L anual de $40M.",
     "skills.title": "Habilidades",
     "skills.group1": "Frontend",
     "skills.group2": "Backend & APIs",
@@ -148,9 +148,9 @@ const translations = {
     "proj3.title": "Full-stack web platforms",
     "proj3.desc":
       "Built complete web applications with React, Next.js, and Node.js on PostgreSQL and REST APIs deployed to the cloud.",
-    "proj4.title": "Azure cloud back-end",
+    "proj4.title": "Technology & Operations organization ramp-up",
     "proj4.desc":
-      "Led the SDLC for Azure-based back-end services: REST APIs, Function Apps, C#, and SQL Server, delivering 25 projects via Scrum and Azure DevOps.",
+      "Built and scaled nearshore technology and operations organizations from the ground up: 550+ associates across Costa Rica and Mexico serving US business units, owning a $40M annual P&L.",
     "skills.title": "Skills",
     "skills.group1": "Frontend",
     "skills.group2": "Backend & APIs",
