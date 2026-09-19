@@ -9,6 +9,7 @@ const translations = {
     "meta.title": "Olivier Jara Phillips — Director de Tecnología",
     "meta.description":
       "Olivier Jara Phillips — Director de Tecnología y líder ejecutivo con más de 25 años liderando organizaciones tecnológicas y transformación digital en Estados Unidos y Latinoamérica.",
+    "a11y.skip": "Saltar al contenido",
     "aria.nav": "Navegación principal",
     "aria.menu": "Abrir menú",
     "nav.home": "Inicio",
@@ -23,6 +24,7 @@ const translations = {
       "Director de Tecnología y líder ejecutivo con más de 25 años liderando organizaciones tecnológicas, desarrollo de software y transformación digital en Estados Unidos y Latinoamérica.",
     "hero.ctaPrimary": "Hablemos",
     "hero.ctaSecondary": "Ver experiencia",
+    "hero.portraitAlt": "Retrato en blanco y negro de Olivier Jara Phillips",
     "about.title": "Sobre mí",
     "about.p1":
       "Combino liderazgo ejecutivo con conocimiento práctico de tecnologías modernas: desarrollo Frontend y Backend, Cloud, DevOps, CI/CD, Docker, APIs y bases de datos, con un fuerte enfoque en IA, LLMs, RAG, AI Agents y automatización inteligente.",
@@ -31,6 +33,14 @@ const translations = {
     "about.fact1": "Años de experiencia",
     "about.fact2": "Colaboradores liderados",
     "about.fact3": "P&L anual gestionado",
+    "about.fact4": "Profesionales formados",
+    "about.credMore": "Ver las 40+ certificaciones en LinkedIn →",
+    "about.edu1t": "MBA, Major en Finanzas",
+    "about.edu1b": "Tecnológico de Costa Rica",
+    "about.edu2t": "Executive Education",
+    "about.edu2b": "Cornell · University of Virginia · George Washington",
+    "about.edu3t": "BSc Computer Science + BSc Business Administration",
+    "about.edu3b": "Universidad Internacional de las Américas",
     "experience.title": "Experiencia",
     "exp1.period": "10/2024 — Actualidad",
     "exp1.desc":
@@ -83,11 +93,11 @@ const translations = {
     "services.howLabel": "Olivier te ayuda mediante",
     "services.outcomeLabel": "El outcome",
     "services.sc1want":
-      "Mejorar mi administración del tiempo y dejar de apagar incendios.",
+      "Incorporar tecnología para aprovechar las innovaciones en mi propuesta de valor.",
     "services.sc1how":
-      "una evaluación de tus hábitos y agenda, priorización, time-blocking y rituales semanales de foco.",
+      "explorar tecnologías emergentes (IA, automatización), identificar los casos de uso de mayor impacto y lanzar un piloto rápido que demuestre valor.",
     "services.sc1outcome":
-      "Una agenda que refleja tus prioridades reales, menos días reactivos y espacio para lo estratégico.",
+      "Innovación aplicada a tu propuesta de valor, con ventaja competitiva medible y un piloto validado en semanas.",
     "services.sc2want": "Procesos más ágiles y costos bajo control.",
     "services.sc2how":
       "mapeo de value stream, mejoras Lean Six Sigma y automatización con IA de los pasos repetitivos.",
@@ -105,50 +115,32 @@ const translations = {
       "liderazgo empresarial y organizacional con foco en resultados.",
     "services.i2t": "Planificación estratégica",
     "services.i2b": "del objetivo de negocio a un plan ejecutable.",
-    "services.i3t": "Gestión política en organizaciones",
-    "services.i3b":
-      "influencia constructiva y alianzas que destraban proyectos.",
-    "services.i4t": "Navegación por gerencia matricial",
-    "services.i4b":
-      "resultados sin autoridad directa, aprendida en la práctica.",
-    "services.g2": "Proyectos & Entrega",
+    "services.g2": "Proyectos & Procesos",
     "services.i5t": "Gestión de proyectos",
     "services.i5b":
       "con Agile, Waterfall o el framework del PMI, según el reto.",
-    "services.i6t": "Administración de riesgos",
-    "services.i6b":
-      "riesgos identificados y gestionados antes de que sean crisis.",
     "services.i7t": "Prototipado de productos",
     "services.i7b": "de la idea a un prototipo que valida antes de invertir.",
-    "services.g3": "Procesos & Operaciones",
     "services.i8t": "Mejora de procesos",
     "services.i8b": "diagnóstico y rediseño para operar con menos fricción.",
     "services.i9t": "Optimización / Value Stream Mapping",
     "services.i9b": "el flujo completo visible, los cuellos de botella fuera.",
-    "services.i10t": "Control y monitoreo",
-    "services.i10b": "indicadores que informan decisiones, no solo reportes.",
-    "services.i11t": "Planificación financiera",
-    "services.i11b": "presupuestos y P&L alineados a la estrategia.",
     "services.g4": "Personas & Carrera",
     "services.i12t": "Manejo del estrés y la ansiedad",
     "services.i12b":
       "herramientas prácticas para liderar con calma bajo presión.",
-    "services.i13t": "Productividad personal",
-    "services.i13b": "sistemas de trabajo que rinden sin sacrificar tu vida.",
-    "services.i14t": "Administración del tiempo",
-    "services.i14b": "prioridades claras y foco en lo que de verdad importa.",
     "services.i15t": "Planificación de carrera",
     "services.i15b": "una ruta realista hacia el rol que quieres alcanzar.",
-    "services.g5": "Equipos & Talento",
-    "services.i16t": "RRHH en tecnología",
-    "services.i16b": "administración y desarrollo de talento técnico a escala.",
-    "services.i17t": "Trabajo en equipo",
-    "services.i17b": "equipos que colaboran, entregan y disfrutan el camino.",
-    "services.cta": "Agendemos una conversación",
+    "services.trainerLabel": "Facilitador certificado",
+    "services.trainerNote":
+      "Speed of Trust (FranklinCovey) · Culture of Accountability (Partners In Leadership) · DevOps Trainer acreditado (DASA). Liderazgo, gestión del cambio, accountability y DevOps para 400+ profesionales — y me sigue gustando tanto como el día uno.",
+    "services.moreLine":
+      "¿No ves lo que buscas? Pregúntame igual — lo resolvemos.",
+    "services.cta": "Conversemos 30 minutos — sin compromiso",
     "contact.title": "Contacto",
     "contact.lead":
-      "¿Conversamos sobre tecnología, IA o transformación digital? Escríbeme y coordinamos una llamada.",
-    "contact.ctaEmail": "Enviar correo",
+      "¿Conversamos sobre tecnología, IA o transformación digital? Escríbeme y coordinamos una llamada — sin compromiso y sin letra chica.",
+    "contact.ctaEmail": "Escríbeme y conversamos",
     "contact.ctaWhatsapp": "WhatsApp",
     "contact.ctaLinkedin": "LinkedIn",
     "contact.labelEmail": "Email",
@@ -161,6 +153,7 @@ const translations = {
     "meta.title": "Olivier Jara Phillips — Technology Director",
     "meta.description":
       "Olivier Jara Phillips — Technology Director and executive leader with 25+ years leading technology organizations and digital transformation across the US and Latin America.",
+    "a11y.skip": "Skip to content",
     "aria.nav": "Main navigation",
     "aria.menu": "Open menu",
     "nav.home": "Home",
@@ -175,6 +168,7 @@ const translations = {
       "Technology Director and executive leader with 25+ years leading technology organizations, software development, and digital transformation across the US and Latin America.",
     "hero.ctaPrimary": "Let's talk",
     "hero.ctaSecondary": "View experience",
+    "hero.portraitAlt": "Black and white portrait of Olivier Jara Phillips",
     "about.title": "About me",
     "about.p1":
       "I combine executive leadership with hands-on knowledge of modern technologies: Frontend and Backend development, Cloud, DevOps, CI/CD, Docker, APIs, and databases, with a strong focus on AI, LLMs, RAG, AI Agents, and intelligent automation.",
@@ -183,6 +177,14 @@ const translations = {
     "about.fact1": "Years of experience",
     "about.fact2": "Associates led",
     "about.fact3": "Annual P&L managed",
+    "about.fact4": "Professionals trained",
+    "about.credMore": "See all 40+ certifications on LinkedIn →",
+    "about.edu1t": "MBA, Finance Major",
+    "about.edu1b": "Tecnológico de Costa Rica",
+    "about.edu2t": "Executive Education",
+    "about.edu2b": "Cornell · University of Virginia · George Washington",
+    "about.edu3t": "BSc Computer Science + BSc Business Administration",
+    "about.edu3b": "Universidad Internacional de las Américas",
     "experience.title": "Experience",
     "exp1.period": "10/2024 — Present",
     "exp1.desc":
@@ -234,11 +236,12 @@ const translations = {
     "services.wantLabel": "I want…",
     "services.howLabel": "Olivier helps you through",
     "services.outcomeLabel": "The outcome",
-    "services.sc1want": "Take control of my time and stop putting out fires.",
+    "services.sc1want":
+      "Bring technology into my value proposition to leverage innovation.",
     "services.sc1how":
-      "an assessment of your habits and schedule, prioritization, time-blocking, and weekly focus rituals.",
+      "exploring emerging technologies (AI, automation), identifying the highest-impact use cases, and launching a quick pilot that proves value.",
     "services.sc1outcome":
-      "A schedule that reflects your real priorities, fewer reactive days, and room for strategic work.",
+      "Innovation applied to your value proposition, with measurable competitive advantage and a pilot validated in weeks.",
     "services.sc2want": "Faster processes and costs under control.",
     "services.sc2how":
       "value stream mapping, Lean Six Sigma improvements, and AI automation of repetitive steps.",
@@ -256,49 +259,32 @@ const translations = {
       "business and organizational leadership focused on results.",
     "services.i2t": "Strategic planning",
     "services.i2b": "from business goal to an executable plan.",
-    "services.i3t": "Organizational politics management",
-    "services.i3b":
-      "constructive influence and alliances that unblock projects.",
-    "services.i4t": "Navigating matrix management",
-    "services.i4b":
-      "delivering without direct authority — learned in practice.",
-    "services.g2": "Projects & Delivery",
+    "services.g2": "Projects & Processes",
     "services.i5t": "Project management",
     "services.i5b":
       "with Agile, Waterfall, or the PMI framework — whatever the challenge calls for.",
-    "services.i6t": "Risk management",
-    "services.i6b": "risks identified and managed before they become crises.",
     "services.i7t": "Product prototyping",
     "services.i7b":
       "from idea to a prototype that validates before you invest.",
-    "services.g3": "Processes & Operations",
     "services.i8t": "Process improvement",
     "services.i8b": "diagnosis and redesign to operate with less friction.",
     "services.i9t": "Optimization / Value Stream Mapping",
     "services.i9b": "the full flow made visible, bottlenecks removed.",
-    "services.i10t": "Control & monitoring",
-    "services.i10b": "metrics that inform decisions, not just reports.",
-    "services.i11t": "Financial planning",
-    "services.i11b": "budgets and P&L aligned with strategy.",
     "services.g4": "People & Career",
     "services.i12t": "Stress & anxiety management",
     "services.i12b": "practical tools to lead calmly under pressure.",
-    "services.i13t": "Personal productivity",
-    "services.i13b": "work systems that deliver without sacrificing your life.",
-    "services.i14t": "Time management",
-    "services.i14b": "clear priorities and focus on what truly matters.",
     "services.i15t": "Career planning",
     "services.i15b": "a realistic path to the role you want to reach.",
-    "services.g5": "Teams & Talent",
-    "services.i16t": "Tech HR management",
-    "services.i16b": "managing and developing technical talent at scale.",
-    "services.i17t": "Teamwork",
-    "services.i17b": "teams that collaborate, deliver, and enjoy the journey.",
-    "services.cta": "Let's schedule a conversation",
+    "services.trainerLabel": "Certified facilitator",
+    "services.trainerNote":
+      "Speed of Trust (FranklinCovey) · Culture of Accountability (Partners In Leadership) · Accredited DevOps Trainer (DASA). Leadership, change management, accountability, and DevOps for 400+ professionals — and I still enjoy it as much as day one.",
+    "services.moreLine":
+      "Don't see what you're looking for? Ask anyway — we'll figure it out.",
+    "services.cta": "Let's talk for 30 minutes — no strings attached",
     "contact.title": "Contact",
     "contact.lead":
-      "Let's talk about technology, AI, or digital transformation. Reach out and let's schedule a call.",
-    "contact.ctaEmail": "Send email",
+      "Let's talk about technology, AI, or digital transformation. Reach out and let's schedule a call — no pressure, no fine print.",
+    "contact.ctaEmail": "Write me and let's talk",
     "contact.ctaWhatsapp": "WhatsApp",
     "contact.ctaLinkedin": "LinkedIn",
     "contact.labelEmail": "Email",
@@ -314,7 +300,9 @@ const LANG_STORAGE_KEY = "lang";
 const getInitialLanguage = () => {
   const saved = localStorage.getItem(LANG_STORAGE_KEY);
   if (saved === "es" || saved === "en") return saved;
-  return "es";
+  // Sin preferencia guardada: respetar el idioma del navegador
+  const browserLang = (navigator.language || "").toLowerCase();
+  return browserLang.startsWith("en") ? "en" : "es";
 };
 
 const applyLanguage = (lang) => {
@@ -363,12 +351,14 @@ const navMenu = document.getElementById("navMenu");
 navToggle.addEventListener("click", () => {
   const isOpen = navMenu.classList.toggle("open");
   navToggle.setAttribute("aria-expanded", String(isOpen));
+  document.body.style.overflow = isOpen ? "hidden" : "";
 });
 
 navMenu.addEventListener("click", (event) => {
   if (event.target.matches(".nav-link, .lang-toggle")) {
     navMenu.classList.remove("open");
     navToggle.setAttribute("aria-expanded", "false");
+    document.body.style.overflow = "";
   }
 });
 
@@ -391,10 +381,13 @@ const navLinks = document.querySelectorAll(".nav-link");
 
 const setActiveLink = (sectionId) => {
   navLinks.forEach((link) => {
-    link.classList.toggle(
-      "active",
-      link.getAttribute("href") === `#${sectionId}`,
-    );
+    const isActive = link.getAttribute("href") === `#${sectionId}`;
+    link.classList.toggle("active", isActive);
+    if (isActive) {
+      link.setAttribute("aria-current", "true");
+    } else {
+      link.removeAttribute("aria-current");
+    }
   });
 };
 
@@ -430,6 +423,49 @@ const revealObserver = new IntersectionObserver(
 );
 
 revealElements.forEach((element) => revealObserver.observe(element));
+
+/* ==========================================================================
+   Count-up de métricas (About)
+   ========================================================================== */
+
+const prefersReducedMotion = window.matchMedia(
+  "(prefers-reduced-motion: reduce)",
+).matches;
+
+const factValues = document.querySelectorAll(".fact-value");
+
+if (!prefersReducedMotion && factValues.length > 0) {
+  const animateFact = (element) => {
+    const match = element.textContent.trim().match(/^([^\d]*)(\d+)(.*)$/);
+    if (!match) return;
+    const [, prefix, digits, suffix] = match;
+    const target = parseInt(digits, 10);
+    const duration = 1400;
+    const start = performance.now();
+    const easeOut = (t) => 1 - Math.pow(1 - t, 3);
+    const step = (now) => {
+      const progress = Math.min((now - start) / duration, 1);
+      element.textContent =
+        prefix + Math.round(target * easeOut(progress)) + suffix;
+      if (progress < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  };
+
+  const factsObserver = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          factValues.forEach(animateFact);
+          observer.disconnect();
+        }
+      });
+    },
+    { threshold: 0.4 },
+  );
+
+  factsObserver.observe(document.querySelector(".about-facts"));
+}
 
 /* ==========================================================================
    Footer year
