@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://olijphillips.github.io/sitemap.xml

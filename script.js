@@ -9,6 +9,7 @@ const translations = {
     "meta.title": "Olivier Jara Phillips — Director de Tecnología",
     "meta.description":
       "Olivier Jara Phillips — Director de Tecnología y líder ejecutivo con más de 25 años liderando organizaciones tecnológicas y transformación digital en Estados Unidos y Latinoamérica.",
+    "meta.imageAlt": "Retrato en blanco y negro de Olivier Jara Phillips",
     "a11y.skip": "Saltar al contenido",
     "aria.nav": "Navegación principal",
     "aria.menu": "Abrir menú",
@@ -153,6 +154,7 @@ const translations = {
     "meta.title": "Olivier Jara Phillips — Technology Director",
     "meta.description":
       "Olivier Jara Phillips — Technology Director and executive leader with 25+ years leading technology organizations and digital transformation across the US and Latin America.",
+    "meta.imageAlt": "Black-and-white portrait of Olivier Jara Phillips",
     "a11y.skip": "Skip to content",
     "aria.nav": "Main navigation",
     "aria.menu": "Open menu",
@@ -298,9 +300,13 @@ const translations = {
 const LANG_STORAGE_KEY = "lang";
 
 const getInitialLanguage = () => {
+  const pathname = window.location.pathname.toLowerCase();
+  if (pathname.startsWith("/en/") || pathname === "/en") return "en";
+  if (pathname.startsWith("/es/") || pathname === "/es") return "es";
+
   const saved = localStorage.getItem(LANG_STORAGE_KEY);
   if (saved === "es" || saved === "en") return saved;
-  // Sin preferencia guardada: respetar el idioma del navegador
+  // Sin preferencia guardada ni ruta fija: respetar el idioma del navegador
   const browserLang = (navigator.language || "").toLowerCase();
   return browserLang.startsWith("en") ? "en" : "es";
 };
