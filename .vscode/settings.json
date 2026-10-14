@@ -1,0 +1,8 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^New-Item -ItemType Directory -Force -Path 'C:\\\\Users\\\\Olivier\\\\OneDrive\\\\Documentos\\\\React\\\\Curso_GIT_2026\\\\olijphillips\\.github\\.io\\\\en' \\| Out-Null; Copy-Item 'C:\\\\Users\\\\Olivier\\\\OneDrive\\\\Documentos\\\\React\\\\Curso_GIT_2026\\\\olijphillips\\.github\\.io\\\\index\\.html' 'C:\\\\Users\\\\Olivier\\\\OneDrive\\\\Documentos\\\\React\\\\Curso_GIT_2026\\\\olijphillips\\.github\\.io\\\\en\\\\index\\.html' -Force$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}
