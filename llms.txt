@@ -1,0 +1,34 @@
+# Olivier Jara Phillips
+
+> Director de Tecnología, ejecutivo tecnológico y líder de transformación digital con más de 25 años de experiencia en estrategia, desarrollo de software, modernización de plataformas y liderazgo de organizaciones en Estados Unidos y Latinoamérica.
+
+## Sobre Olivier
+
+Olivier Jara Phillips es un líder tecnológico con trayectoria ejecutiva en estrategia y operaciones de tecnología. Su experiencia combina dirección de equipos, desarrollo de software, arquitectura y modernización tecnológica, gestión de servicios de TI y ejecución de iniciativas de transformación digital. Su perfil refleja una perspectiva internacional, con experiencia profesional en Estados Unidos y Latinoamérica y residencia en Heredia, Costa Rica.
+
+El sitio presenta su perfil profesional, áreas de servicio, experiencia, proyectos, capacidades técnicas y formas de contacto. Para obtener los detalles completos y actualizados, consulta las páginas oficiales enlazadas abajo.
+
+## Páginas oficiales
+
+- [Perfil profesional en español](https://olijphillips.github.io/): Página principal con información sobre Olivier, su propuesta de valor y navegación a las secciones del sitio.
+- [Professional profile in English](https://olijphillips.github.io/en/): English-language version of the professional profile and site sections.
+- [Sitemap](https://olijphillips.github.io/sitemap.xml): Índice de las páginas públicas disponibles.
+
+## Temas del sitio
+
+- Liderazgo tecnológico y dirección de organizaciones de TI.
+- Estrategia tecnológica y alineamiento entre tecnología y objetivos de negocio.
+- Transformación digital y modernización de plataformas.
+- Desarrollo de software y gestión de equipos de ingeniería.
+- Gestión de servicios, operaciones y entrega tecnológica.
+- Experiencia profesional y proyectos seleccionados.
+- Competencias, tecnologías y canales de contacto.
+
+## Perfiles públicos
+
+- [LinkedIn](https://www.linkedin.com/in/olivierjaraphillipsdirector/): Perfil profesional.
+- [GitHub](https://github.com/olijphillips): Repositorios y actividad de desarrollo.
+
+## Idioma y alcance
+
+La página raíz está principalmente en español y `/en/` ofrece el contenido en inglés. Este archivo es una guía resumida para sistemas de recuperación y asistentes; no reemplaza el contenido del sitio ni debe interpretarse como una fuente independiente para datos biográficos no publicados allí.
